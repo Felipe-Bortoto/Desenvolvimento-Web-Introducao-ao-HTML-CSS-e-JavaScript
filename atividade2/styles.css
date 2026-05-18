@@ -1,0 +1,47 @@
+/* estilização basica */
+
+body{
+    background-color: #EACDFE;
+}
+
+/* h1 com borda, cor, e box model*/
+h1 {
+    color: #1E0132;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5B0297;
+    border-radius: 12px;
+    margin: 10px 50px;
+    padding: 8px;
+}
+
+h2, h3, hr{
+    color: #3D0165;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: #7A02CA;
+    size: 18px;
+}
+
+/* classe*/
+.listas{
+    color: #7A02CA;
+}
+
+/* id */
+#sbr{
+    text-shadow: #1E0132;
+}
+
+#citacao{
+    color: #5B0297;
+}
+
+img{    
+    width: 50%;
+    height: auto; 
+}
